@@ -18,14 +18,7 @@ export default defineEventHandler(async (event) => {
       headers: { Authorization: `Bearer ${process.env.OPENAI_API_KEY}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({
         model: 'gpt-3.5-turbo',
-        messages: [
-          {
-            role: 'system',
-            content:
-              'You are a helpful assistant that creates gym workouts. You will only respond with the workout plan, reps, sets and time it takes, no additional notes or explanations. Format each section as follows: "1. Warm-up (5 minutes): Exercises"',
-          },
-          { role: 'user', content: prompt },
-          ],
+        messages: [{ role: 'user', content: prompt }],
         temperature: 1,
         max_tokens: 818,
         top_p: 1,
