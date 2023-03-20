@@ -45,7 +45,6 @@ const submit = async () => {
           </button>
         </div>
       </div>
-
     <p class="whitespace-pre-line text-left">
       {{ response }}
     </p>
