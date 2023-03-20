@@ -9,7 +9,7 @@ It's very simple, we just use chatGPT's API to generate a workout plan based on 
 ### Cloning the repository the local machine.
 
 ```
-git clone https://github.com/timb-103/workoutsGPT.git
+git clone https://github.com/pinnnguyen/menu-children.git
 ```
 
 ### Creating a account on openai to get an API key.
@@ -35,9 +35,3 @@ Then, run the application in the command line and it will be available at `http:
 ```bash
 npm run dev
 ```
-
-## One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/timb-103/workoutsGPT.git&env=OPENAI_API_KEY&project-name=workoutsGPT&repo-name=workoutsGPT)
